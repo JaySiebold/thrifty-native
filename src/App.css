@@ -2,3 +2,27 @@
   text-align: center;
 }
 
+li {
+  list-style: none;
+}
+
+.nav-bar {
+  background-color: lightgray;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-h1 {
+  background-color: lightseagreen;
+}
+
+.products-h1 {
+  background-color: lightslategray;
+}
+
+.about-h1 {
+  background-color: lightcoral;
+}

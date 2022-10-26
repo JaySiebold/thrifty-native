@@ -1,0 +1,7 @@
+import '../App.css';
+
+export default function Products() {
+    return (
+        <h1 className="products-h1">[product components]</h1>
+    )
+}
