@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -8,6 +12,8 @@ li {
 
 .nav-bar {
   background-color: lightgray;
+  height: 100vh;
+  padding: 1em;
 }
 
 .App-header {
