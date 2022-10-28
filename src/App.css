@@ -2,23 +2,58 @@
   box-sizing: border-box;
 }
 
-.App {
+/* .App {
   text-align: center;
+} */
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li.nav-link{
+  margin-right: 1em;
+  
+}
+
+.nav-link-container {
+  display: flex;
+}
+
+/* .nav-container {
+  display: none;
+} */
+
 .nav-bar {
   background-color: lightgray;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 1em;
 }
 
-.App-header {
+.logo-thrifty,
+.logo-native {
+  margin: 0;
+}
+
+.nav-bar {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
 }
 
 .home-h1 {
