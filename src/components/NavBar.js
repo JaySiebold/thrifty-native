@@ -8,24 +8,22 @@ import {
 
 export default function NavBar() {
     return (
-        <div className='nav-container'>
-            <nav className='nav-bar'>
-                <div className='logo'>
-                    <h1 className='logo-thrifty'>Thrifty Native</h1>
-                    {/* <h1 className='logo-native'>Native</h1> */}
-                </div>
-                <ul className='nav-link-container'>
-                    <li className='nav-link'>
-                        <Link to="/" >Home</Link>
-                    </li>
-                    <li className='nav-link'>
-                        <Link to="/products" >Products</Link>
-                    </li>
-                    <li className='nav-link'>
-                        <Link to="/about" >About</Link>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav className='nav-bar'>
+            <div className='logo'>
+                <h1 className='logo-thrifty'>Thrifty Native</h1>
+                {/* <h1 className='logo-native'>Native</h1> */}
+            </div>
+            <ul className='nav-link-container'>
+                <li className='nav-link'>
+                    <Link to="/" >Home</Link>
+                </li>
+                <li className='nav-link'>
+                    <Link to="/products" >Products</Link>
+                </li>
+                <li className='nav-link'>
+                    <Link to="/about" >About</Link>
+                </li>
+            </ul>
+        </nav>
     )
 }

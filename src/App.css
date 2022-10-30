@@ -2,9 +2,6 @@
   box-sizing: border-box;
 }
 
-/* .App {
-  text-align: center;
-} */
 
 ul,
 li {
@@ -34,14 +31,11 @@ li.nav-link{
   display: flex;
 }
 
-/* .nav-container {
-  display: none;
-} */
-
 .nav-bar {
   background-color: lightgray;
-  /* height: 100vh; */
   padding: 1em;
+  position: relative;
+  width: 100%;
 }
 
 .logo-thrifty,
@@ -58,12 +52,19 @@ li.nav-link{
 
 .home-h1 {
   background-color: lightseagreen;
+  margin: 0;
 }
 
 .products-h1 {
   background-color: lightslategray;
+  margin: 0;
 }
 
 .about-h1 {
   background-color: lightcoral;
+  margin: 0;
+}
+
+.about-container {
+  background-color: lightblue;
 }
